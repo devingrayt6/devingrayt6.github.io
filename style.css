@@ -1,0 +1,24 @@
+header img{
+  border-radius: 50%;
+  width: 60%;
+}
+.social a{
+  background: #b0b7bf;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.list-inline{
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
