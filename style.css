@@ -36,6 +36,12 @@ header img{
   height: 21vh;
 }
 
+.head-img{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .contact{
   display: flex;
   align-items: center;
@@ -66,5 +72,17 @@ header img{
   justify-content: center;
   margin-bottom: 3rem;
 }
+
+.head-img{
+  margin-top: 3rem;
+}
+}
+
+@media screen and (max-width: 780px) and (orientation: landscape){
+  header img{
+    border-radius: 30%;
+    width: 35%;
+    height: 35vh;
+    }
 }
   
