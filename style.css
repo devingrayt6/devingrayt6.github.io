@@ -3,7 +3,7 @@ body{
 }
 
 .heading{
-  margin-left: -1vw;
+  margin-left: 1vw;
 }
 
 .social li a{
@@ -66,21 +66,22 @@ header img{
   }
   .heading{
     margin: auto auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
+  .social{
+    display: flex;
+    justify-content: center;
+  }
+  .contact{
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
 
-.social{
-  display: flex;
-  justify-content: center;
-}
-.contact{
-  justify-content: center;
-  margin-bottom: 3rem;
-}
-
-.head-img{
-  margin-top: 3rem;
-}
+  .head-img{
+    margin-top: 3rem;
+  }
 }
 
 @media screen and (max-width: 780px) and (orientation: landscape){
