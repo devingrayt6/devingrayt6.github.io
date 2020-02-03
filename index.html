@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Font awesome 4 -->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -32,8 +33,12 @@
         </ul>
       </div>
       <div class="col-12 col-md-4 contact" id="contact-me">
-        <button class="btn btn-success"><i class="fa fa-paper-plane" aria-hidden="true"></i> Mail</button>
-        <button class="btn btn-info"><i class="fa fa-skype" aria-hidden="true"></i> Chat</button>
+        <button class="btn btn-info" onclick="emailMe()"><i class="fa fa-paper-plane" aria-hidden="true"
+            title="Email"></i> Mail</button>
+        <!-- <a target='_blank'> -->
+        <button onclick="openWhatsApp()" class="btn btn-success" title="WhatsApp chat"><i class="fa fa-whatsapp"
+            aria-hidden="true"></i> Chat</button>
+        <!-- </a> -->
       </div>
     </div>
   </header>
@@ -44,40 +49,40 @@
         <div class="card my-3 p-1" id="about-me">
           <div class="card-body">
             <h4 class="card-title text-secondary"><strong>About Me</strong></h4>
-            <li><strong>Languages: </strong>JavaScript, Python</li>
-            <li><strong>FrontEnd Frameworks: </strong>ReactJS</li>
-            <li><strong>BackEnd Frameworks: </strong>NodeJS</li>
-            <li><strong>Data Bases: </strong>MongoDB</li>
-            <li><strong>Favorite Editor: </strong>VS Code</li>
-            <li><strong>Operating Systems: </strong>Linux, Windows</li>
-            <li><strong>Web Tools: </strong>Html5, CSS & Flex, Bootstrap</li>
+            <li><b>Languages: </b>JavaScript, Python</li>
+            <li><b>FrontEnd Frameworks: </b>ReactJS</li>
+            <li><b>BackEnd Frameworks: </b>NodeJS</li>
+            <li><b>Data Bases: </b>MongoDB</li>
+            <li><b>Favorite Editor: </b>VS Code</li>
+            <li><b>Operating Systems: </b>Linux, Windows</li>
+            <li><b>Web Tools: </b>Html5, CSS & Flex, Bootstrap</li>
             <br>
-            <li class="text-secondary"><strong>Experience</strong></li>
+            <li class="text-secondary"><b>Experience</b></li>
             <br>
-            <li><strong>Boise CodeWorks</strong></li>
-            <li><strong>Self Taught</strong></li>
+            <li><b>Boise CodeWorks</b></li>
+            <li><b>Self Taught</b></li>
           </div>
         </div>
         <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
+          <h4 class="card-title text-secondary"><strong>Projects</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
         </div>
         <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
+          <h4 class="card-title text-secondary"><strong>Test</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
         </div>
         <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
+          <h4 class="card-title text-secondary"><strong>Test</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
         </div>
         <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
+          <h4 class="card-title text-secondary"><strong>Test</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
@@ -85,31 +90,33 @@
       </div>
       <div class="col-12 col-md-4">
         <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
+          <span><i class="fa fa-map-marker text-muted mr-2" aria-hidden="true"></i> Nampa, Idaho USA</span>
+          <span><i class="fa fa-envelope-o text-muted mr-2" aria-hidden="true"></i> <a href=""
+              onclick="emailMe()">devingrayt6@gmail.com</a></span>
+          <span><i class="fa fa-file-o text-muted mr-2" aria-hidden="true"></i> <a href="#"
+              onclick="downloadCv()">Download
+              CV</a></span>
+        </div>
+        <div class="card my-3 p-1">
+          <h4 class="card-title text-secondary"><strong>Skills</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
         </div>
         <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
+          <h4 class="card-title text-secondary"><strong>Test</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
         </div>
         <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
-          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
-            obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
-            nam quo quis omnis provident.</p>
-        </div>
-        <div class="card my-3 p-1">
-          <h2 class="card-title">test</h2>
+          <h4 class="card-title text-secondary"><strong>Test</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
         </div>
         <div class="card m-3 p-1">
-          <h2 class="card-title">test</h2>
+          <h4 class="card-title text-secondary"><strong>Test</strong></h4>
           <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odit distinctio
             obcaecati ipsa autem explicabo deserunt est suscipit vel eveniet. Perspiciatis repudiandae nobis eos atque
             nam quo quis omnis provident.</p>
@@ -117,6 +124,9 @@
       </div>
     </div>
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="./app.js"></script>
 </body>
 
 </html>
