@@ -2,7 +2,7 @@ body{
   background-color: #dae3e7;
 }
 
-li{
+.nobullet li{
   list-style: none;
 }
 
@@ -44,9 +44,7 @@ a{
 }
 
 header img{
-  border-radius: 30%;
-  width: 100%;
-  height: 21vh;
+  border-radius: 50%;
 }
 
 .head-img{
@@ -67,11 +65,11 @@ header img{
 }
 
 @media screen and (max-width: 780px){
-  header img{
+  /* header img{
     border-radius: 30%;
     width: 70%;
     height: 27vh;
-  }
+  } */
   .heading{
     margin: auto auto;
     margin-top: 1rem;
@@ -87,16 +85,16 @@ header img{
     margin-bottom: 3rem;
   }
 
-  .head-img{
+  /* .head-img{
     margin-top: 3rem;
-  }
+  } */
 }
-
+/* 
 @media screen and (max-width: 780px) and (orientation: landscape){
   header img{
     border-radius: 30%;
     width: 35%;
     height: 35vh;
     }
-}
+} */
   
