@@ -66,7 +66,7 @@ header img{
 
 @media screen and (max-width: 780px){
   header img{
-    width: 40%;
+    width: 35%;
   }
   .heading{
     margin: auto auto;
@@ -87,12 +87,11 @@ header img{
     margin-top: 3rem;
   } */
 }
-/* 
+
 @media screen and (max-width: 780px) and (orientation: landscape){
   header img{
-    border-radius: 30%;
-    width: 35%;
-    height: 35vh;
+    border-radius: 60%;
+    width: 20%;
     }
-} */
+}
   
