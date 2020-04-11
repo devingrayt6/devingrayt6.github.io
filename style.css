@@ -67,6 +67,7 @@ header img{
 @media screen and (max-width: 780px){
   header img{
     width: 40%;
+    border-radius: 50%;
   }
   .heading{
     margin: auto auto;
