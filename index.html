@@ -436,6 +436,10 @@
                 class="fa fa-linkedin"></i></a>
             <a href="https://github.com/devingrayt6" class="external social-links fadeInUp"><i
                 class="fa fa-github-square"></i></a>
+            <a href="https://wa.me/18013588829" class="external social-links whats-app fadeInUp"><i class="fa fa-whatsapp"
+              aria-hidden="true"></i></a>
+            <a onclick="emailMe()" class="external social-links fadeInUp"><i class="fa fa-paper-plane" aria-hidden="true"
+              title="Email"></i></a>
           </p>
         </div>
         <!-- /.6-->
@@ -460,6 +464,11 @@
   <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
   <script src="js/front.js"></script>
+  <script>
+  function emailMe() {
+    window.open(String('mailto:recipient^example.com').replace('^', '@'));
+  }
+  </script>
 </body>
 
 </html>

@@ -60,7 +60,11 @@
   font-size: 45px !important;
 }
 .social-links :hover{
-  color: grey
+  color: grey;
+  cursor: pointer;
+}
+.whats-app{
+  background-color: #25d366
 }
 /* .carousel-img{
   width: 20rem;
