@@ -1,4 +1,4 @@
-<section id="references">
+<section id="projects">
     <div class="container">
       <div class="col-sm-12">
         <div class="mb-5 text-center">

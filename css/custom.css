@@ -69,3 +69,7 @@
 /* .carousel-img{
   width: 20rem;
 } */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
