@@ -66,9 +66,9 @@
 .whats-app{
   background-color: #25d366
 }
-/* .carousel-img{
-  width: 20rem;
-} */
+.carousel-img{
+  height: 30rem;
+}
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
